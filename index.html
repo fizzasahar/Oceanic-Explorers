@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hydrothoria</title>
+    <link rel="shortcut icon" href="img/favico.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg  ">
+        <div class="container-fluid d-flex w-100 g-5">
+            <a class="navbar-brand link-light " href="#" style="border-bottom: none;"><img src="img/logo.jpeg" id="logo"
+                    alt=""> Oceanic Explorers</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link link-light " aria-current="page" href="#our-team">About Our Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  link-light" aria-current="page" href="#our-mission">Our Mission</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link  link-light" aria-current="page" href="#Ecosystem">Ecosystem</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- carousel -->
+    <div class="carousel-container">
+        <!-- Slides -->
+        <div class="carousel-slide active one slider ">
+            <section id="hero">
+                <h1>Beyond Sunlight: An Aquatic Chemosynthetic World</h1>
+                <p style="color: white;">Explore a world where life may thrives without sunlight, deep beneath the ocean.</p>
+                <a href="#Planet-Hydrothoria" class="link animateLink"><button class=" btn-lg rounded-pill">An imaginary
+                        Planet</button></a>
+            </section>
+        </div>
+        <div class="carousel-slide two slider">
+            <h1>Explore Hydrothoria</h1>
+            <p>Explore the imaginary , mysterious and deep <b>Oceanic World</b>.</p>
+            <a href="#Geological-Features" class="link"><button class=" btn-lg rounded-pill ">Geografical
+                    Features</button></a>
+            <a href="#Ecosystem" class="link"><button class=" btn-lg rounded-pill ">Ecosystem</button></a>
+          
+        </div>
+        <div class="carousel-slide three slider">
+            <h1>Presented by <i>Oceanic Explorers</i> </h1><br>
+            <a href="#our-team" class="link animateLink"><button class=" btn-lg rounded-pill">About Our Team
+                </button></a>
+        </div>
+
+        <!-- Navigation buttons -->
+        <button class="prev-btn">&#10094;</button>
+        <button class="next-btn">&#10095;</button>
+
+        <!-- Indicators (Dots) -->
+        <div class="carousel-indicators">
+            <span class="indicator active" data-slide="1"></span>
+            <span class="indicator" data-slide="2"></span>
+            <span class="indicator" data-slide="3"></span>
+        </div>
+    </div>
+
+    <div id="our-mission" class="container p-3 mt-5 rounded">
+        <h1>Our Mission</h1>
+        <p >The challenge of imagining a beyond sunlight focused on how life can exist without sunlight we are creating a
+            website to educate visitor about chemosynthesis and its potential for supporting life in deep we are
+            impizing the importance of studying chemosynthesis ecosystem through an imaginary Oceanic Planet.</p>
+    </div>
+
+    <div id="Planet-Hydrothoria">
+        <div id="Planet-Hydrothoria-content ">
+            <h1>Planet Hydrothoria</h1><br>
+            <p>Welcome to Hydrothroria
+                Imaginary planet where chemosynthetic energy ignites life.
+                Life on this planet would be vastly different from what we know.
+                Strange creatures would inhibit the depth equipped with adaptions to survive in extreme darkness they
+                may possess heightened senses, bioluminescence, or other unimaginable attributes.</p>
+            <button id="showVideoBtn1" class=" btn-lg rounded-pill">GLimps of Hydrothoria</button>
+
+            <!-- Lightbox (Modal) container -->
+            <div id="videoLightbox1" class="lightbox hidden">
+                <div class="lightbox-content">
+                    <span id="closeBtn1" class="close">&times;</span>
+                    <video id="videoPlayer1" controls>
+                        <source src="videos/video.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+        <img src="img/planet_hydrothoria.png" alt="">
+    </div>
+    <div id="Geological-Features">
+        <h1 class="mt-5 mb-5">Geological Features</h1>
+        <div class="card-group">
+            <div class="card m-2">
+                <img src="img/Icy Surface.jpeg" class="card-img-top h-50 " alt="...">
+                <div class="card-body px-3 pb-4 pt-5">
+                    <h5 class="card-title">Icy Surface</h5>
+                    <p class="card-text">If Hydrothoria is far from its star or lacks sunlight, the surface could be
+                        covered in thick ice, with liquid water oceans underneath, similar to moons like Europa
+                        (Jupiter's moons) or Enceladus. The icy surface serve as a protective shield for the oceans
+                        below.</p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="img/Cryovolcanoes.jpeg" class="card-img-top h-50" alt="...">
+                <div class="card-body p-5 pt-5">
+
+                    <h5 class="card-title">Cryovolcanoes</h5>
+                    <p class="card-text">Volcanoes that erupt water, ammonia, or methane instead of molten rock. These
+                        could occur on Hydrothoria’s surface, that support chemosynthetic life.</p>
+
+                </div>
+            </div>
+            <div class="card m-2">
+                <img src="img/Subsurface Oceans.jpeg" class="card-img-top h-50" alt="...">
+                <div class="card-body p-5 pt-5">
+                    <h5 class="card-title">Subsurface Oceans</h5>
+                    <p class="card-text">Beneath the surface ice, Hydrothoria's have vast subsurface oceans connected by
+                        a network of hydrothermal vents, where life thrives in the deep dark water.</p>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="Ecosystem">
+        <h1 class="text-center pt-5 pb-5">Ecosystem</h1>
+        <div class="Chemosynthesis-on-Hydrothoria container">
+            <h3>Chemosynthesis on Hydrothoria</h3>
+            <p>On Hydrothoria, chemosynthesis is the heartbeat of life,In the absence of sunlight, the organisms of
+                Hydrothoria thrive around hydrothermal vents, turning minerals into energy for survival.Beneath the icy
+                surface of Hydrothoria, chemosynthesis fuels entire ecosystem.</p>
+    
+                <div class="row">
+                    <div class="col m-3 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Chemosynthetic organisms utilize various chemical compounds as energy
+                                    sources, converting chemical energy into organic compounds. Key energy-yielding
+                                    chemical
+                                    compounds:</h5>
+                                <p class="card-text">
+                                     1. Hydrogen sulfide (H2S) <br>
+                                    2. Hydrogen gas (H2) <br>
+                                    3. Ammonia (NH3) <br>
+                                    4. Iron (Fe2+) <br>
+                                    5. Manganese (Mn2+) <br>
+                                    6. Nitrite (NO2-) and nitrate (NO3-) <br>
+                                    7. Sulfur compounds (S, S2-, S0)</p> <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m-3  mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title pt-5">Organisms using chemosynthesis:</h5>
+                                <p class="card-text pt-5 pb-5"> 1. Bacteria <br><br>
+                                    2. Archaea <br><br>
+                                    3. Protozoa <br><br>
+                                    4. Fungi <br></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col mx-3 mb-3 mb-sm-0">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title pt-5">These microorganisms support life in diverse environments:</h5>
+                                <p class="card-text pt-4 pb-5">  1. Hydrothermal vents. <br><br>
+                                    2. Deep-sea sediments. <br><br>
+                                    3. Soil. <br><br>
+                                    4. Freshwater ecosystems.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <button id="showVideoBtn2" class=" btn-lg rounded-pill w-50" style="margin-left: 350px;">Watch Now</button>
+
+            <!-- Lightbox (Modal) container -->
+            <div id="videoLightbox2" class="lightbox hidden">
+                <div class="lightbox-content">
+                    <span id="closeBtn2" class="close">&times;</span>
+                    <video id="videoPlayer2" controls>
+                        <source src="videos/Chemosynthesis on Hydrothoria.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div><br><hr>
+        <div class="Unique-Aquatic-Life text-center mt-5 mb-5 pt-5 pb-5">
+            <h3>Unique Aquatic Life on Hydrothoria</h3>
+            <p>The aquatic life on Hydrothoria would be truly unique, adapted to its dark, chemosynthetic environment.</p>
+            <button id="showVideoBtn3" class=" btn-lg rounded-pill ">Watch Now</button>
+
+            <!-- Lightbox (Modal) container -->
+            <div id="videoLightbox3" class="lightbox hidden">
+                <div class="lightbox-content">
+                    <span id="closeBtn3" class="close">&times;</span>
+                    <video id="videoPlayer3" controls>
+                        <source src="videos/Unique Aquatic Life on Hydrothoria.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <br><hr>
+    <div id="our-team" class="container p-3 mt-5 rounded">
+        <h1>Our Team Members</h1>
+        <div class="members row pt-5 pb-5">
+        <div class="col ">
+            <img src="img/person icon.png" style="width: 150px;" alt="">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  Bushra Sehar</b>
+        </div>
+        <div class="col">
+            <img src="img/person icon.png" style="width: 150px;"  alt="">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  Buhra Ahmed</b>
+        </div>
+        <div class="col">
+            <img src="img/person icon.png" style="width: 150px;" alt="">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;  Umm-e-Hani</b>
+        </div>
+        <div class="col">
+            <img src="img/person icon.png" style="width: 150px;" alt="">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Wajiha</b>
+        </div>
+        <div class="col">
+            <img src="img/person icon.png" style="width: 150px;" alt="">
+            <b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Fizza Sahar</b>
+        </div>
+        </div>
+       
+    </div>
+
+
+
+
+
+
+
+
+    <footer>
+        <p style="color: white;">Credits: NASA and International Space Agencies | Designed by Fizza Sahar</p>
+    </footer>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
